@@ -1,0 +1,4 @@
+https://github.com/ayufan-rock64/linux-kernel.git
+
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- rockchip_linux_defconfig
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- -j12
